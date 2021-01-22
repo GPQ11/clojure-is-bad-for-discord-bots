@@ -1,36 +1,30 @@
 # Schauspielerin
 
-FIXME: description
+A bot that allows users to set their own roles.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Download the source code and give the bot your token:
+
+    $ git clone https://github.com/GPQ11/Schauspielerin.git
+    $ cd Schauspielerin
+    $ mkdir -p data/settings
+    $ echo '{"token":"YOURTOKENGOESHERE","prefix":"!","bot-name":"Schauspielerin","extension-folders":[]}' > data/settings/settings.json
 
 ## Usage
 
-FIXME: explanation
+Just use [Leiningen](https://github.com/technomancy/leiningen):
 
-    $ java -jar Schauspielerin-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
+    $ lein run
 
 ## Examples
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    !role Rapper
+    !unrole Rapper
 
 ## License
 
-Copyright © 2021 FIXME
+Copyright © 2021 chrissx Media
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
